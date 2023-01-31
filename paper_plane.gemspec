@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'activesupport', '~> 6.0', '>= 6.0.3'
+  spec.add_dependency 'activesupport', '>= 6.0.3', '< 8'
   spec.add_dependency 'actionmailer', '~> 6.0', '>= 6.0.3'
   spec.add_dependency 'activejob', '~> 6.0', '>= 6.0.3'
   spec.add_dependency 'twilio-ruby', '~> 5.27', '>= 5.27.1'
